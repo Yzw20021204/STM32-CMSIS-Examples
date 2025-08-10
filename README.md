@@ -6,17 +6,12 @@ Amacım, STM32 programlamaya yeni başlayanların donanımın çalışma mantı�
   Kodlar açıklama satırları ile desteklenmiş ve kolayca anlaşılacak şekilde yazılmıştır.
 
 Mevcut konular:
-  GPIO (Giriş/Çıkış kontrolü)
-  
-  EXTI (Harici kesme işlemleri)
-  
-  ADC (Analog-Dijital Dönüşüm)
-  
-  DAC (Dijital-Analog Dönüşüm)
-  
-  PWM (Darbe genişlik modülasyonu)
-
-  SPI, I2C, UART gibi haberleşme protokolleri (eklenecek)
+  -GPIO (Giriş/Çıkış kontrolü) 
+  -EXTI (Harici kesme işlemleri)
+  -ADC (Analog-Dijital Dönüşüm)
+  -DAC (Dijital-Analog Dönüşüm)
+  -PWM (Darbe genişlik modülasyonu)
+  -SPI, I2C, UART gibi haberleşme protokolleri (eklenecek)
 
 🎯 Hedef
   STM32’nin donanım kayıt seviyesinde nasıl çalıştığını göstermek
