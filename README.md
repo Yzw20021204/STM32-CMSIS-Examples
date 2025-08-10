@@ -83,22 +83,6 @@ CMSIS kütüphanesini projelere dahil etmek için aşağıdaki adımları takip 
 2. STM32F4 Discovery kartınızı USB ile bağlayın
 3. `Run -> Debug` ile programı yükleyin ve çalıştırın
 
-## 🤝 Katkıda Bulunma
-
-Projeye katkıda bulunmak isteyenler:
-
-1. Repository'yi fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/yeni-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/yeni-ozellik`)
-5. Pull Request oluşturun
-
-### Katkı Kuralları
-- Kod yorumlarını Türkçe yazın
-- Her örnek için ayrı klasör oluşturun
-- README dosyasını güncel tutun
-- Register seviyesinde kod yazın (HAL kullanmayın)
-
 ## 📚 Faydalı Kaynaklar
 
 - [STM32F4 Reference Manual](https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
