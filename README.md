@@ -24,10 +24,10 @@ STM32 programlamaya yeni başlayanların donanımın çalışma mantığını **
 | **ADC** | Analog-Dijital dönüşüm, sensör okuma | ✅ Hazır |
 | **DAC** | Dijital-Analog dönüşüm, analog sinyal üretimi | ✅ Hazır |
 | **PWM** | Darbe genişlik modülasyonu, motor kontrolü | ✅ Hazır |
-| **UART** | Seri haberleşme protokolü | 🔄 Geliştiriliyor |
-| **SPI** | Seri Peripheral Interface | 🔄 Planlanıyor |
-| **I2C** | Inter-Integrated Circuit | 🔄 Planlanıyor |
-| **Timer** | Zamanlayıcı işlemleri | 🔄 Planlanıyor |
+| **UART** | Seri haberleşme protokolü | ✅ Hazır |
+| **SPI** | Seri Peripheral Interface | ✅ Hazır |
+| **I2C** | Inter-Integrated Circuit | ✅ Hazır |
+| **Timer** | Zamanlayıcı işlemleri | ✅ Hazır |
 
 ## 🛠️ Gereksinimler
 
@@ -59,47 +59,6 @@ cd STM32-CMSIS-Examples
 1. Projeyi seçin ve `Ctrl+B` ile derleyin
 2. STM32F4 Discovery kartınızı USB ile bağlayın
 3. `Run -> Debug` ile programı yükleyin ve çalıştırın
-
-
-## 📁 Proje Yapısı
-
-```
-STM32-CMSIS-Examples/
-├── GPIO_Examples/
-│   ├── GPIO_LED_Control/
-│   ├── GPIO_Button_Input/
-│   └── GPIO_Toggle/
-├── EXTI_Examples/
-│   ├── External_Interrupt/
-│   └── Button_Interrupt/
-├── ADC_Examples/
-│   ├── Single_Channel_ADC/
-│   └── Multi_Channel_ADC/
-├── PWM_Examples/
-│   ├── Basic_PWM/
-│   └── Variable_PWM/
-├── Docs/
-│   ├── register_maps/
-│   └── datasheets/
-└── README.md
-```
-
-## 🧠 Öğrenme Yolu
-
-### 1. Başlangıç Seviyesi
-- GPIO ile LED kontrolü
-- Buton okuma ve debouncing
-- Temel register manipülasyonu
-
-### 2. Orta Seviye
-- ADC ile analog okuma
-- PWM ile motor kontrolü
-- External interrupt kullanımı
-
-### 3. İleri Seviye
-- UART seri haberleşme
-- SPI/I2C protokolleri
-- Timer ve interrupt yönetimi
 
 ## 🤝 Katkıda Bulunma
 
