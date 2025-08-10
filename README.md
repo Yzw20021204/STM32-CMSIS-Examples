@@ -1,6 +1,5 @@
 # STM32 CMSIS Examples
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![STM32F4](https://img.shields.io/badge/STM32-F4%20Discovery-orange.svg)](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)
 [![CMSIS](https://img.shields.io/badge/CMSIS-Core%20%26%20Device-green.svg)](https://arm-software.github.io/CMSIS_5/Core/html/index.html)
 
@@ -97,9 +96,6 @@ CMSIS kütüphanesini projelere dahil etmek için aşağıdaki adımları takip 
 - Her örnek **standalone** çalışacak şekilde tasarlanmıştır
 - **STM32F4 Discovery** kartı için optimize edilmiştir
 
-## 📄 Lisans
-
-Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
 
 
 ⭐ Bu projeyi beğendiyseniz **star** vermeyi unutmayın!
