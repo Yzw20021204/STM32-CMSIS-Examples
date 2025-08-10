@@ -44,7 +44,7 @@ STM32 programlamaya yeni başlayanların donanımın çalışma mantığını **
 ## 🚀 Kurulum ve Çalıştırma
 
 ### 1. Repository'yi Klonlayın
-```
+```bash
 git clone https://github.com/TalhaYaman98/STM32-CMSIS-Examples.git
 cd STM32-CMSIS-Examples
 ```
@@ -55,7 +55,30 @@ cd STM32-CMSIS-Examples
 3. Klonladığınız klasörü seçin
 4. İstediğiniz örnek projeyi seçin
 
-### 3. Derleyin ve Yükleyin
+### 3. CMSIS Kütüphanesini Yapılandırın
+CMSIS kütüphanesini projelere dahil etmek için aşağıdaki adımları takip edin:
+
+1. **Drivers klasörünü kopyalayın**
+   - Repository'deki `Drivers` klasörünü projenizin kök dizinine kopyalayın
+
+2. **Include Paths Ayarları**
+   - Proje üzerine sağ tıklayın ve `Properties` seçin
+   - `C/C++ BUILD -> Settings -> Tool settings -> MCU/MPU GCC Compiler -> Include paths`
+   - Aşağıdaki yolları ekleyin:
+     ```
+     ../Drivers/CMSIS/Include
+     ../Drivers/CMSIS/Device/ST/STM32F4xx/Include
+     ```
+
+3. **Preprocessor Defines Ayarları**
+   - `C/C++ BUILD -> Settings -> Tool settings -> MCU/MPU GCC Compiler -> Preprocessor`
+   - Aşağıdaki tanımlamaları ekleyin:
+     ```
+     STM32F407xx
+     ARM_MATH_CM4
+     ```
+
+### 4. Derleyin ve Yükleyin
 1. Projeyi seçin ve `Ctrl+B` ile derleyin
 2. STM32F4 Discovery kartınızı USB ile bağlayın
 3. `Run -> Debug` ile programı yükleyin ve çalıştırın
@@ -89,6 +112,10 @@ Projeye katkıda bulunmak isteyenler:
 - **Register seviyesinde** programlama yaptığımız için dikkatli olmak gerekir
 - Her örnek **standalone** çalışacak şekilde tasarlanmıştır
 - **STM32F4 Discovery** kartı için optimize edilmiştir
+
+## 📄 Lisans
+
+Bu proje [MIT License](LICENSE) altında lisanslanmıştır.
 
 
 ⭐ Bu projeyi beğendiyseniz **star** vermeyi unutmayın!
